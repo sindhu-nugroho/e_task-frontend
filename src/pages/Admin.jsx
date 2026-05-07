@@ -60,7 +60,7 @@ export default function Admin() {
   };
 
   const downloadExcel = () => {
-    window.open("https://etaskbackend.vercel.app/api/submission/export");
+    window.open("http://localhost:5000/api/submission/export");
   };
 
   const stats = [
